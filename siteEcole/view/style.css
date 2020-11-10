@@ -1,0 +1,107 @@
+.red {
+background-color: red;
+}
+
+.formation{
+color: white;
+display : inline-block;
+font-size: 30px;
+position: relative;
+}
+
+#lis{
+
+	background: yellow;
+}
+
+.tt{
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.formation:hover .tt {
+    display: block;
+}
+
+
+
+ul {
+position: sticky;
+top :0;
+}
+
+
+body{
+padding: 50px;
+margin: 25px;
+border-width: 5px;
+border-style: solid;
+    
+}
+
+tr th{
+color: red;
+font-weight: bold;
+font-style: italic;
+}
+
+
+#diaporama figure img {
+
+	width: 25%;
+	float: left;	
+	height: 500px;
+
+	
+}
+
+#diaporama figure {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 100%;
+	position: relative;
+	-webkit-animation:10s diapo infinite;
+	
+}
+
+#diaporama figure:hover {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 100%;
+	position: relative;
+	animation-play-state: paused;
+
+	
+	
+}
+
+#diaporama {
+	align: right;
+	max-width: 80%;
+height: 500px;
+overflow: hidden;
+margin: 0 auto;
+border: 10px solid black;
+}
+
+
+
+@keyframes diapo {
+0%{left: 0;}
+25%{left: -100%;}
+
+50%{left: -200%;}
+75%{left: -300%;
+100%{left: -400%;}
+}
+
+
+
+
+
+

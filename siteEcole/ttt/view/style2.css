@@ -1,0 +1,24 @@
+#lsts{
+display : inline-block;
+position: absolute;
+
+}
+
+.colB, .colL{
+border-style: dashed;
+
+}
+
+body {
+	background-color: pink;
+}
+
+.delVid,.delClass{
+	border-radius: 30%;
+	background-color: red;
+	width:55%;
+	height: 50px;
+	background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+
+
+}
